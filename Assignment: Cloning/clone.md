@@ -217,11 +217,11 @@ let clonedPerson = cloneObject(person);
 
 console.log(
 `The user object is ${
-    user == cloned ? `not clone`:`cloned successfully 😁👑`
+    user == cloned ? 
   }`
 );
 console.log(
 `The person object is ${
-    person == clonedPerson ? `not clone`:`cloned successfully 😁👑`
+    person == clonedPerson ? 
   }`
 );
